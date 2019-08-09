@@ -1,3 +1,6 @@
 一、记录一些控件
 （1）名称：jquery省市区城市地图选择器插件【原创】
 （2）网站：https://www.sucaihuo.com/js/2102.html
+二、控件radio使用jQuery控制选择。
+  <1>、$("input:radio[name='carrierinfo_settle_ismenu'][value=1]").click();
+  使用attr("checked",'checked');prop('checked',true); 不管用；
